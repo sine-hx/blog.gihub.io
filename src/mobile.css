@@ -1,0 +1,10 @@
+@media (max-width: 720px) {
+  .container {
+    width: 100%;
+  }
+
+  .col-half {
+    float: none;
+    width: 100%;
+  }
+}
