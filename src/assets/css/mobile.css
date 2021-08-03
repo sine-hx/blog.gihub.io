@@ -1,0 +1,22 @@
+@media (max-width: 720px) {
+  .blogPage{
+      flex-flow: column;
+      width: 100%;
+  }
+  .info dl dd img{
+        width: 70px;
+        height: 70px;
+        border-radius: 100px;
+   }
+   .info dl dt h4{
+    margin-bottom: 8px;
+   }
+   .mainBox ul{
+       padding-right: 20px;
+   }
+   .pageRight{
+        margin-left: 0;
+        width: auto;
+        flex-shrink: 0;
+    }
+}

@@ -1,38 +1,46 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
   <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./src/index.css" />
-    <link rel="stylesheet" href="./src/mobile.css" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> 馨迤的博客 </title>
+    <link rel="stylesheet" href="./src/assets/css/index.css" />
+    <link rel="stylesheet" href="./src/assets/css/mobile.css" />
   </head>
   <body>
-    <div class="container">
-      <div class="row">
-        <div class="col-half">
-          <div class="box-image">
-            Image
-          </div>
+    <div class="blogPage">
+      <div class="pageLeft">
+        <div class="info bgInfo">
+          <dl>
+            <dd><img src="./src/assets/img/photo.png" /></dd>
+            <dt>
+              <h4>馨迤Sine<span>前端开发工程师</span></h4>
+              <p>写代码使我快乐，写代码让我兴奋</p>
+            </dt>
+          </dl>
         </div>
-        <div class="col-half">
-          <div class="box-info">
-            Info
-          </div>
-          <div class="box-info">
-            Info
-          </div>
-          <div class="box-info">
-            Info
-          </div>
-          <div class="box-info">
-            Info
-          </div>
+        <div class="mainBox bgInfo">
+          <h3>技术成果</h3>
+          <ul>
+            <li>- Sample前端框架：react框架搭建级维护，并封装自有组件</li>
+            <li>- 手架工具：Electron工程骨架前后端代码生成器，根据数据结构生成前后端项目及模块代码</li>
+            <li>- Cms页面设计器：使用GridLayout实现页面设计并生成页面连接</li>
+            <li>- 熟练使用Photoshop、Sketch，作品地址：http://yining.zcool.com.cn/</li>
+          </ul>
         </div>
       </div>
-      <div class="row">
-        <div class="box-desc">
-          Desc
-        </div>
+      <div class="pageRight bgInfo">
+        <h2>文章分类</h2>
+        <ul>
+          <li>React</li>
+          <li>Vue</li>
+          <li>JavaScript</li>
+          <li>网络</li>
+          <li>性能</li>
+        </ul>
       </div>
     </div>
   </body>
-  <script src="../index.js"></script>
 </html>
+<html>

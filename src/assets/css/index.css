@@ -1,0 +1,70 @@
+html{
+    background: #eaeaea;
+    color: #333;
+}
+.blogPage{
+    width: 960px;
+    margin:0 auto;
+    display: flex;
+}
+.pageLeft{
+    flex-grow: 1;
+}
+.bgInfo{
+    background: #fff;
+    box-shadow: 0 1px 2px 0 rgb(0 0 0 / 5%);
+    border-radius:2px;
+    padding:10px;
+    margin-bottom: 12px;
+}
+.info dl{
+    display: flex;
+}
+.info dl dd img{
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+}
+.info dl dt{
+    margin-left: 20px;
+}
+.info dl dt p{
+    font-size: 12px;
+    color: #666;
+}
+.info dl dt h4{
+    margin-bottom: 16px;
+}
+.info dl dt h4 span{
+    font-size:12px;
+    font-weight: 300;
+    margin-left: 10px;
+}
+.mainBox h3{
+    border-bottom: 1px solid #f4f8ff;
+    margin: 0;
+    line-height: 42px;
+    padding-left: 14px;
+}
+.mainBox ul{
+    font-size: 14px;
+    color: rgb(120, 128, 137);
+    line-height: 24px;
+}
+.pageRight{
+    margin-left: 10px;
+    width: 180px;
+    flex-shrink: 0;
+}
+.pageRight h2{
+    border-bottom: 1px solid #f4f8ff;
+    margin: 0;
+    line-height: 42px;
+    padding-left: 14px;
+    font-size: 16px;
+}
+.pageRight ul{
+    font-size: 14px;
+    color: rgb(120, 128, 137);
+    line-height: 24px;
+}
